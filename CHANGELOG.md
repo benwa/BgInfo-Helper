@@ -11,5 +11,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Refresh on resolution changes
 - Convert wallpaper to supported format
 
-[Unreleased]: compare/v1.0.0...HEAD
-[1.0.0]: releases/tag/v1.0.0
+[Unreleased]: compare/1.0.0...HEAD
+[1.0.0]: releases/tag/1.0.0
