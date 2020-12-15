@@ -8,7 +8,12 @@ Quality of life improvements for Sysinternal's BgInfo
   - Workaround for black wallpaper when using a PNG
 
 ## Installation
-Place `BgInfo-Helper.exe` in the same folder as `BgInfo.exe` and `BgInfo64.exe`
+Place `BgInfo-Helper.exe` in the same folder as `BgInfo.exe` and `BgInfo64.exe`.
+If you get a *Publisher Could Not Be Verified* prompt when trying to run this, use [Sysinternal's streams](https://docs.microsoft.com/en-us/sysinternals/downloads/streams) to remove the alternate data streams.
+
+```cmd
+streams64.exe -d BgInfo-Helper.exe
+```
 
 ## Usage
 Run `BgInfo-Helper.exe` with parameters that will be passed to `BgInfo.exe`. Check [BgInfo's documentation here](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo).
